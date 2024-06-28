@@ -1,7 +1,7 @@
 import mock
 from pytest import fixture
 from tangerine import InteractiveSecretProvider, DictionaryBasedSecretProvider
-
+from collections.abc import MutableMapping
 
 @fixture
 def interactive_secret_provider():
